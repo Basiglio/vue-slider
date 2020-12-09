@@ -10,9 +10,9 @@ var app = new Vue(
        "https://images.alphacoders.com/561/thumb-1920-561101.jpg",
        "https://images6.alphacoders.com/542/thumb-1920-542289.jpg",
        "https://a.cdn-hotels.com/gdcs/production178/d1521/a0d859a0-5863-11e8-a5ee-0242ac110030.jpg",
-     ]
+     ],
    },
-   created: function (){
+   created: function () {
      setInterval(
       () => {
        this.nextImage();

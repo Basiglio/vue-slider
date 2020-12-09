@@ -39,6 +39,7 @@ img {
 
 .nav i {
  margin: 15px 30px;
+ cursor: pointer;
 }
 
 .active {
