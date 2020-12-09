@@ -12,6 +12,12 @@ var app = new Vue(
        "https://a.cdn-hotels.com/gdcs/production178/d1521/a0d859a0-5863-11e8-a5ee-0242ac110030.jpg",
      ]
    },
+   created: function (){
+     setInterval(
+      () => {
+       this.nextImage();
+     }, 2000);
+   },
    methods: {
      // QUANDO PREMO SULLA FRECCIA DESTRA, AUMENTA DI UNO IL MIO INDICE DI UNO
      nextImage: function (){

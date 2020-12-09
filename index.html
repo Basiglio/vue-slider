@@ -17,6 +17,9 @@
       </div>
       <div class="slider">
         <img :src="images[imageIndex]" alt="picture">
+        <div class="nav">
+          <i class="fas fa-circle" v-for="(image, index) in images" :class="(index == imageIndex)? 'active' : ''"></i>
+        </div>
       </div>
       <div class="next">
         <i class="fas fa-chevron-right icon" @click="nextImage"></i>
